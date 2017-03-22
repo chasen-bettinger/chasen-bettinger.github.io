@@ -74,6 +74,7 @@ a:hover {
  * Base structure
  */
 
+
 html,
 body {
   max-height: 100%;
@@ -230,5 +231,31 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  body {
+  text-align: center;
+  }
+
+#page-wrap {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+}
+
+  body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background-image: linear-gradient(45deg, #4F00BC, #29ABE2);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
