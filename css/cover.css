@@ -47,10 +47,17 @@ a:hover {
   padding-right: 10px;
 }
 
-.contact {
+.contact-row {
   padding-top: 50px;
 }
 
+#contact_text {
+  float: right;
+}
+
+#email {
+  float: left;
+}
 
 /* Custom default button */
 .btn-default,
@@ -74,7 +81,8 @@ body {
   background-image: linear-gradient(45deg, #4F00BC, #29ABE2);
   background-attachment: fixed;
 }
-body {
+
+  body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
@@ -201,13 +209,12 @@ body {
     margin-right: 40px;
   }
 
-
   .btn {
     margin-bottom: 10px;
   }
+
   .links {
-    width: 25vh;
-    margin-bottom: 10px;
+    width: 185px;
 
     margin-left: auto;
     margin-right: auto;
